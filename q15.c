@@ -24,3 +24,22 @@ Output 4:
 Special character
 
 */
+#include<stdio.h>
+int main()
+{
+    char cha;
+    printf("enter a letter capital or small ");
+    scanf("%c", &cha);
+    if(cha >= 97 & cha <= 122)
+    {
+        printf("entered alphabet is in small case");
+    }
+    else if(cha >=65 & cha <=90)
+    {
+        printf("entered is in capital case");
+    }
+    else
+    printf("not an alphabet");
+    return 0;
+
+}
